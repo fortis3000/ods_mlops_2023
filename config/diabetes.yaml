@@ -1,0 +1,17 @@
+input:
+  path: data/raw/diabetes.csv
+  columns: [
+    'Age'
+    # 'BMI',
+    'BloodPressure'
+    # 'DiabetesPedigreeFunction',
+    'Glucose'
+    # 'Insulin',
+    'Outcome'
+    # 'Pregnancies',
+    # 'SkinThickness'
+  ]
+  TARGET: Outcome
+
+output:
+  path: 
